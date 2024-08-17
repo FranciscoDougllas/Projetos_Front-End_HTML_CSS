@@ -14,6 +14,8 @@ body{
 }
 #container{
     width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 #container h2{
     font-size: 3rem;
@@ -24,4 +26,18 @@ body{
 .projeto{
     margin: 20px;
     font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.projeto a{
+    margin: 20px;
+    background-color: #ccc;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: .5s;
+}
+.projeto a:hover{
+    background-color: aliceblue;
+    border: 2px solid #000;
 }
